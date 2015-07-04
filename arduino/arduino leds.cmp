@@ -1,4 +1,18 @@
-Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = dom 28 jun 2015 18:56:36 ART
+Cmp-Mod V01 Created by CvPcb (25-Oct-2014 BZR 4029)-stable date = mié 01 jul 2015 19:52:53 ART
+
+BeginCmp
+TimeStamp = /559463EB;
+Reference = C1;
+ValeurCmp = CAPAPOL;
+IdModule  = c_elec_4x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /559463DC;
+Reference = C2;
+ValeurCmp = C;
+IdModule  = C1;
+EndCmp
 
 BeginCmp
 TimeStamp = /5590381C;
@@ -99,6 +113,27 @@ IdModule  = DIP-28__300_ELL;
 EndCmp
 
 BeginCmp
+TimeStamp = /55946A11;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55946A25;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55946A45;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = bornier2;
+EndCmp
+
+BeginCmp
 TimeStamp = /559048D3;
 Reference = R1;
 ValeurCmp = R;
@@ -159,6 +194,13 @@ TimeStamp = /55905952;
 Reference = R9;
 ValeurCmp = R;
 IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /55946328;
+Reference = U1;
+ValeurCmp = 7805;
+IdModule  = TO220;
 EndCmp
 
 EndListe

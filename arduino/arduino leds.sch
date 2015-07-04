@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 jun 2015"
+Date "2 jul 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -462,4 +462,138 @@ Wire Wire Line
 	2750 2900 2950 2900
 Text Label 2900 2900 0    60   ~ 0
 PIN4
+$Comp
+L 7805 U1
+U 1 1 55946328
+P 6500 1200
+F 0 "U1" H 6650 1004 60  0000 C CNN
+F 1 "7805" H 6500 1400 60  0000 C CNN
+F 2 "" H 6500 1200 60  0000 C CNN
+F 3 "" H 6500 1200 60  0000 C CNN
+	1    6500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 559463DC
+P 7200 1550
+F 0 "C2" H 7200 1650 40  0000 L CNN
+F 1 "C" H 7206 1465 40  0000 L CNN
+F 2 "~" H 7238 1400 30  0000 C CNN
+F 3 "~" H 7200 1550 60  0000 C CNN
+	1    7200 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAPAPOL C1
+U 1 1 559463EB
+P 5950 1500
+F 0 "C1" H 6000 1600 40  0000 L CNN
+F 1 "CAPAPOL" H 6000 1400 40  0000 L CNN
+F 2 "~" H 6050 1350 30  0000 C CNN
+F 3 "~" H 5950 1500 300 0000 C CNN
+	1    5950 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  900  850  900 
+Text Label 800  900  0    60   ~ 0
+VO
+Wire Wire Line
+	850  3100 600  3100
+Text Label 750  3100 0    60   ~ 0
+GND
+$Comp
+L CONN_2 P1
+U 1 1 55946A11
+P 6450 2400
+F 0 "P1" V 6400 2400 40  0000 C CNN
+F 1 "CONN_2" V 6500 2400 40  0000 C CNN
+F 2 "" H 6450 2400 60  0000 C CNN
+F 3 "" H 6450 2400 60  0000 C CNN
+	1    6450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P2
+U 1 1 55946A25
+P 6450 2800
+F 0 "P2" V 6400 2800 40  0000 C CNN
+F 1 "CONN_2" V 6500 2800 40  0000 C CNN
+F 2 "" H 6450 2800 60  0000 C CNN
+F 3 "" H 6450 2800 60  0000 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 P3
+U 1 1 55946A45
+P 6450 3200
+F 0 "P3" V 6400 3200 40  0000 C CNN
+F 1 "CONN_2" V 6500 3200 40  0000 C CNN
+F 2 "" H 6450 3200 60  0000 C CNN
+F 3 "" H 6450 3200 60  0000 C CNN
+	1    6450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 2300 6100 2300
+Wire Wire Line
+	5900 2500 6100 2500
+Wire Wire Line
+	5900 2700 6100 2700
+Wire Wire Line
+	5900 2900 6100 2900
+Wire Wire Line
+	5900 3100 6100 3100
+Wire Wire Line
+	5900 3300 6100 3300
+Text Label 6000 2300 0    60   ~ 0
+VI
+Text Label 6000 2500 0    60   ~ 0
+GND
+Wire Wire Line
+	2750 2150 3000 2150
+Wire Wire Line
+	2750 2250 3000 2250
+Text Label 2900 2150 0    60   ~ 0
+BTN1
+Text Label 2950 2250 0    60   ~ 0
+BTN2
+Text Label 5950 2900 0    60   ~ 0
+GND
+Text Label 5950 3300 0    60   ~ 0
+GND
+Text Label 5950 2700 0    60   ~ 0
+BTN1
+Text Label 5950 3100 0    60   ~ 0
+BTN2
+Wire Wire Line
+	5900 1150 6100 1150
+Text Label 5950 1150 0    60   ~ 0
+VI
+Wire Wire Line
+	7150 1150 6900 1150
+Text Label 7000 1150 0    60   ~ 0
+VO
+Wire Wire Line
+	7200 1200 7200 1350
+Text Label 7200 1300 0    60   ~ 0
+VO
+Wire Wire Line
+	5950 1300 5950 1200
+Text Label 5950 1250 0    60   ~ 0
+VI
+Wire Wire Line
+	7200 1950 7200 1750
+Text Label 7200 1850 0    60   ~ 0
+GND
+Wire Wire Line
+	6500 1650 6500 1450
+Text Label 6500 1550 0    60   ~ 0
+GND
+Wire Wire Line
+	5950 1950 5950 1700
+Text Label 5950 1850 0    60   ~ 0
+GND
 $EndSCHEMATC
